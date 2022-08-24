@@ -2,7 +2,7 @@
 
 MoveDAO 是一个链上链下结合的DAO平台
 
-- [ ]  产品主要功能流程(初稿)
+-  产品主要功能流程(初稿)
     1. use case：发起项目提案
         
         填定项目标题，项目利益相关人，项目价值或解决的问题,项目总贡献值等……. 
@@ -48,5 +48,7 @@ MoveDAO 是一个链上链下结合的DAO平台
 
 参考资料：
     [MoveDAO制度草案](https://pinto-muskmelon-2bc.notion.site/moveDao-85dbe8a6ba294c5ca47523245370b934)
+
     [估值最高的社区DAO是怎么做产品](https://www.qianba.com/news/p-434944.html)
+    
     [Gitcoin Governance Process](https://gov.gitcoin.co/t/gitcoin-dao-governance-process-v2-updated/7860)
