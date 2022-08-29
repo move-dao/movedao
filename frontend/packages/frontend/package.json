@@ -1,0 +1,47 @@
+{
+  "name": "@movedao/frontend",
+  "version": "0.1.0",
+  "license": "Apache License 2.0",
+  "description": "MoveDAO frontend",
+  "keywords": [
+    "move",
+    "dao"
+  ],
+  "homepage": "https://github.com/move-dao/movedao#readme",
+  "bugs": {
+    "url": "https://github.com/move-dao/movedao/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/move-dao/movedao.git"
+  },
+  "author": "ywww <g592842897@gmail.com> (https://github.com/yvvw)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fewcha/web3": "^0.1.21",
+    "@fewcha/web3-react": "^0.1.21",
+    "@reduxjs/toolkit": "^1.8.5",
+    "aptos": "^1.3.10",
+    "next": "12.2.5",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.2"
+  }
+}
