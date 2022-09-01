@@ -4,7 +4,7 @@
     curl --proto '=https' --tlsv1.3 -sSf https://sh.rustup.rs | sh
     source ~/.profile
 source ~/.cargo/env
-# 安装postgre
+# 安装postgres (ubuntu)
     sudo apt install postgresql
     #启动
     sudo /etc/init.d/postgresql start
@@ -16,7 +16,29 @@ source ~/.cargo/env
     进入数据库修改密码
     ALTER USER postgres WITH PASSWORD '123456';
     #创建数据库
-    CREATE DATABASE movedao
+    CREATE DATABASE movedao;
+    \c movedao
+    #建表
+    CREATE TABLE project(
+    ID INT PRIMARY KEY     NOT NULL,
+    NAME           TEXT    NOT NULL
+    );
+
+# 安装postgres (MacOS[M1])
+    brew install postgresql 
+    #安装
+    https://postgresapp.com/downloads.html
+    打开 PostgreSQL 14 并点击Start
+
+    创建role
+    /opt/homebrew/bin/createuser -s postgres
+    
+    使用postgres终端
+    psql postgres
+    进入数据库修改密码
+    ALTER USER postgres WITH PASSWORD '123456';
+    #创建数据库
+    CREATE DATABASE movedao;
     \c movedao
     #建表
     CREATE TABLE project(
