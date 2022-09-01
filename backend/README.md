@@ -25,8 +25,10 @@ source ~/.cargo/env
     );
 
 # 安装postgres (MacOS[M1])
+    #安装 1
     brew install postgresql 
-    #安装
+    brew services start postgresql
+    #安装 2
     https://postgresapp.com/downloads.html
     打开 PostgreSQL 14 并点击Start
 
