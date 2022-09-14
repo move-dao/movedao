@@ -11,4 +11,7 @@ Cargo.lock
 
 .idea
 
+# Move Build Output
+**build/
+
 node_modules

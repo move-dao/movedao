@@ -7,6 +7,9 @@ MoveDAO 是一个链上链下结合的DAO平台
 - [ ]  产品主要功能流程(初稿)
     1. use case：发起项目提案
         
+        [产品原型](https://www.figma.com/file/G1sFPJW93QQjMZoVdCLBID/MoveDAO提案系统?node-id=0%3A1)
+        [prd文档](https://www.figma.com/file/G1sFPJW93QQjMZoVdCLBID/MoveDAO提案系统?node-id=0%3A1)
+        
         填定项目标题，项目利益相关人，项目价值或解决的问题,项目总贡献值等……. 
         
     2. use case：对项目投票
