@@ -1,13 +1,15 @@
 [package]
-name = 'governance'
+name = 'movedaopoint'
 version = '1.0.0'
+upgrade_policy = "compatible"
 
 [dependencies]
-AptosFramework = { git = 'https://github.com/davidiw/aptos-core.git', rev = 'conversions', subdir = 'aptos-move/framework/aptos-framework' }
+# AptosFramework = { git = 'https://github.com/davidiw/aptos-core.git', rev = 'conversions', subdir = 'aptos-move/framework/aptos-framework' }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet"}
 
 [addresses]
 std = "0x1"
 aptos_std = "0x1"
 aptos_framework = "0x1"
 
-movedao = "0x100000"
+movedao1 = "0x007"

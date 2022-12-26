@@ -1,16 +1,16 @@
 
-/// define MoveDAO proposals
+// define MoveDAO proposals
 
-module movedao::proposal {
+// module movedao::proposal {
 
-    use std::string::String;
+//     use std::string::String;
 
-    struct ProjectProposal has store, drop {
-        // proposal_id: u64,
-        title: String,
-        description: String,
-        start_time: u64,
-        end_time: u64,
-        total_points: u64,
-    }
-}
+//     struct ProjectProposal has store, drop {
+//         // proposal_id: u64,
+//         title: String,
+//         description: String,
+//         start_time: u64,
+//         end_time: u64,
+//         total_points: u64,
+//     }
+// }
